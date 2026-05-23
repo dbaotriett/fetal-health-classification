@@ -76,7 +76,7 @@ Việc tinh chỉnh `class_weight` đã giúp cải thiện đáng kể độ nh
 * **Bước 1: Clone dự án về máy:**
 
 ```bash
-git clone [https://github.com/dbaotriett/fetal-health-classification.git](https://github.com/dbaotriett/fetal-health-classification.git)
+git clone https://github.com/dbaotriett/fetal-health-classification.git
 cd fetal-health-classification
 
 ```
