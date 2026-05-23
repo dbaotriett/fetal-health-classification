@@ -1,4 +1,3 @@
-```markdown
 # Fetal Health Classification - Phân loại tình trạng sức khỏe thai nhi
 
 Dự án bài tập lớn môn Học máy (Kỳ 2, 2025-2026). Dự án tập trung vào việc xây dựng, huấn luyện và so sánh các mô hình Machine Learning để thực hiện phân loại đa lớp (Multi-class Classification) cho tình trạng sức khỏe thai nhi dựa trên dữ liệu Cardiotocogram (CTG).
@@ -22,7 +21,7 @@ Mục tiêu cốt lõi của dự án là phát triển các mô hình Machine L
 
 ## 3. Cấu trúc thư mục
 ```text
-machine-learning-project/
+fetal-health-classification/
 ├── data/
 │   └── fetal_health.csv        # Tập dữ liệu gốc từ Kaggle
 ├── docs/
@@ -75,19 +74,19 @@ Việc tinh chỉnh `class_weight` đã giúp cải thiện đáng kể độ nh
 ## 6. Cài đặt và Thực thi
 
 * **Bước 1: Clone dự án về máy:**
+
 ```bash
-git clone https://github.com/dinhbaotriet/machine-learning-project-summer-2026.git
-cd machine-learning-project
+git clone [https://github.com/dbaotriett/fetal-health-classification.git](https://github.com/dbaotriett/fetal-health-classification.git)
+cd fetal-health-classification
 
 ```
 
-
 * **Bước 2: Cài đặt thư viện:**
+
 ```bash
 pip install -r requirements.txt
 
 ```
-
 
 * **Bước 3: Thực thi dự án:**
 Mở `src/source.ipynb` và chọn **"Restart & Run All"** để tái lập toàn bộ kết quả.
@@ -99,6 +98,3 @@ Mở `src/source.ipynb` và chọn **"Restart & Run All"** để tái lập toà
 * Dataset: [Fetal Health Classification (Kaggle)](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 * Tài liệu học tập môn Học máy - Kỳ 2, 2025-2026.
 
-```
-
-```
