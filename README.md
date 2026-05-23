@@ -3,7 +3,7 @@
 Dự án bài tập lớn môn Học máy (Kỳ 2, 2025-2026). Dự án tập trung vào việc xây dựng, huấn luyện và so sánh các mô hình Machine Learning để thực hiện phân loại đa lớp (Multi-class Classification) cho tình trạng sức khỏe thai nhi dựa trên dữ liệu Cardiotocogram (CTG).
 
 ## 1. Giảng viên hướng dẫn & Thành viên nhóm
-**Giảng viên hướng dẫn:** Thầy [Cao Văn Chung](http://mim.hus.vnu.edu.vn/en/staff/chungcv) - Khoa Toán - Cơ - Tin học, Trường Đại học Khoa học Tự nhiên, ĐHQGHN.
+**Giảng viên hướng dẫn:** [Cao Văn Chung](http://mim.hus.vnu.edu.vn/en/staff/chungcv) - Khoa Toán - Cơ - Tin học, Trường Đại học Khoa học Tự nhiên, ĐHQGHN.
 
 | Thành viên | MSSV | Vai trò chính |
 | :--- | :--- | :--- |
@@ -26,7 +26,7 @@ fetal-health-classification/
 │   └── fetal_health.csv        # Tập dữ liệu gốc từ Kaggle
 ├── docs/
 │   ├── report.pdf              # Báo cáo chi tiết dự án
-│   └── presentation.pptx       # Slide thuyết trình
+│   └── presentation.pdf        # Slide thuyết trình
 ├── results/
 │   ├── figures/                # Các biểu đồ và Confusion Matrix
 │   └── model_weights/          # Các file mô hình đã huấn luyện (.pkl)
@@ -53,7 +53,7 @@ fetal-health-classification/
 
 Việc tinh chỉnh `class_weight` đã giúp cải thiện đáng kể độ nhạy (Sensitivity) của mô hình đối với các nhóm bệnh lý.
 
-| Metrics (Lớp 2 & 3) | SVM Baseline (Trước) | SVM Final (Sau) | Cải thiện |
+| Metrics (Class 2 & 3) | SVM Baseline (Trước) | SVM Final (Sau) | Cải thiện |
 | --- | --- | --- | --- |
 | **Recall (Class 2)** | 0.59 | **0.85** | +0.26 |
 | **Recall (Class 3)** | 0.77 | **0.94** | +0.17 |
@@ -69,7 +69,7 @@ Việc tinh chỉnh `class_weight` đã giúp cải thiện đáng kể độ nh
 | 3.0 (`Pathological`) | 0.88 | 0.94 | 0.91 | 52 |
 | **Accuracy (Tổng)** |  |  | **90.69%** | **634** |
 
-**Discussion:** Việc tăng trọng số giúp tăng mạnh **Recall** cho các ca bệnh, giảm thiểu False Negatives – một yếu tố sống còn trong y tế, dù có đánh đổi nhẹ về Precision.
+**Discussion:** Việc tăng trọng số giúp tăng mạnh **Recall** cho các ca bệnh, giảm thiểu False Negatives, dù có đánh đổi nhẹ về Precision.
 
 ## 6. Cài đặt và Thực thi
 
