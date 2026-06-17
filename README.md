@@ -5,11 +5,11 @@ Dự án bài tập lớn môn Học máy (Kỳ 2, 2025-2026). Dự án tập tr
 ## 1. Giảng viên hướng dẫn & Thành viên nhóm
 **Giảng viên hướng dẫn:** [Cao Văn Chung](http://mim.hus.vnu.edu.vn/en/staff/chungcv) - Khoa Toán - Cơ - Tin học, Trường Đại học Khoa học Tự nhiên, ĐHQGHN.
 
-| Thành viên | MSSV | Vai trò chính |
-| :--- | :--- | :--- |
-| **Đinh Bảo Triết** (Leader) | 23000164 | Data Preprocessing, SVM, Logistic Regression, Tổng hợp báo cáo |
-| **Đỗ Minh Hoàng** | 23000121 | Dimensionality Reduction (PCA/LDA), SoftMax Regression |
-| **Vũ Nhân Tông** | 23000160 | Clustering (K-Means), Naive Bayes |
+| Thành viên | Vai trò chính |
+| :--- | :--- |
+| **Đinh Bảo Triết** (Leader) | Data Preprocessing, SVM, Logistic Regression, Tổng hợp báo cáo |
+| **Đỗ Minh Hoàng** | Dimensionality Reduction (PCA/LDA), SoftMax Regression |
+| **Vũ Nhân Tông** | Clustering (K-Means), Naive Bayes |
 
 ## 2. Giới thiệu dự án
 Trong lĩnh vực y tế dự phòng, việc theo dõi nhịp tim thai nhi là một trong những chỉ số quan trọng nhất để đánh giá sức khỏe thai nhi trong quá trình mang thai và chuyển dạ. Dự án này sử dụng tập dữ liệu Cardiotocogram (CTG) để xây dựng hệ thống phân loại tình trạng sức khỏe thai nhi thành 3 nhóm: 
